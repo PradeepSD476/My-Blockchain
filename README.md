@@ -7,11 +7,26 @@
 # Daily Logs:
 ## Day 0 : (September-28):  
 ### What i Learned Today:  
-Blockchain, Smart Contracts, Decentralization, Ethereum, Oracle Problem, Hybrid Smart Contracts, Chainlink, Transparency, Immutable, Metamask, Faucet, Etherscan, Gas, Kaccak256, Hash, Mining, Keys, Digital Signature, Bitcoin, Resiliens, Consensus, Chain selection, Sybil Resistance, Proof of work , Proof of Stack, Nakamato Consensus, longest Chain rule, Sybil attack, 51% attack, Validators, Scalability, Sharding, Nodes, Layer, Rollups
+Blockchain, Smart Contracts, Decentralization, Ethereum, Oracle Problem, Hybrid Smart Contracts, Chainlink, Transparency, Immutable, Metamask, Faucet, Etherscan, Gas, Kaccak256, Hash, Mining, Keys, Digital Signature, Bitcoin, Resiliens, Consensus, Chain selection, Sybil Resistance, Proof of work , Proof of Stack, Nakamato Consensus, longest Chain rule, Sybil attack, 51% attack, Validators, Scalability, Sharding, Nodes, Layer, Rollups, Transactions.
 
-### Key Concepts:  
 #### Blockchain: 
 Immutable, decentralized, Transparent Ledger  
 
+#### Decentralized: 
+Everything is not maintained by a single Central Authority , Instead everything is spread across the nodes all around  
+
 #### Smart Contracts: 
+Set of instructions, followed by execution in decentralized way, withoud needing any centralized or 3rd party  
+
+#### Oracle Problem: 
+Due to External Data  
+
+#### Blockchain oracle: 
+it enables smart contracts to execute inputs and outputs from real world  
+
+#### Ethereum: 
+A blockchain platform  
+
+#### Hybrid Smart Contracts: 
+
 
