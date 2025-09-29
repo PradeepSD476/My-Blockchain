@@ -62,7 +62,7 @@ contract SimpleStorage3 {
 //calldata: can't be modified, memory can be modified
 
 //basic solidity mappings -> efficient
-contract Mapping {
+contract Mapp {
     mapping(string => uint256) public nameToFavoriteNumber;
     function addToMapping(string memory _name, uint256 _favoriteNumber) public {
         nameToFavoriteNumber[_name] = _favoriteNumber;
@@ -73,4 +73,6 @@ contract Mapping {
 
 //EVM, ethereum virtual machine
 //avalanche, fantom ,polygon
+
+//connect your vs code with remixd using remixd -s . --remix-ide https://remix.ethereum.org after npm install -g @remix-project/remixd
 
