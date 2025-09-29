@@ -6,5 +6,7 @@ My goal is to build a strong, hands-on foundation, progressing from the fundamen
 
 
 DAILY LOGS
+
 Day0: 
-    Keywords : Blockchain, Smart Contracts, Decentralization, Ethereum, Oracle Problem, Hybrid Smart Contracts, Chainlink, Transparency, Immutable, Metamask, Faucet, Etherscan, Gas, Kaccak256, Hash, Mining, Keys, Digital Signature, 
+
+Keywords : Blockchain, Smart Contracts, Decentralization, Ethereum, Oracle Problem, Hybrid Smart Contracts, Chainlink, Transparency, Immutable, Metamask, Faucet, Etherscan, Gas, Kaccak256, Hash, Mining, Keys, Digital Signature, 
