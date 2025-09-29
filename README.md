@@ -7,7 +7,7 @@
 # Daily Logs:
 ## Day 0 : (September-28):  
 ### What i Learned Today:  
-Blockchain, Smart Contracts, Decentralization, Ethereum, Oracle Problem, Hybrid Smart Contracts, Chainlink, Transparency, Immutable, Metamask, Faucet, Etherscan, Gas, Kaccak256, Hash, Mining, Keys, Digital Signature, Bitcoin, Resiliens, Consensus, Chain selection, Sybil Resistance, Proof of work , Proof of Stack, Nakamato Consensus, longest Chain rule, Sybil attack, 51% attack, Validators, Scalability, Sharding, Nodes, Layer, Rollups, Transactions.
+Blockchain, Smart Contracts, Decentralization, Ethereum, Oracle Problem, Hybrid Smart Contracts, Chainlink, Transparency, Immutable, Metamask, Faucet, Etherscan, Gas, Kaccak256, Hash, Mining, Keys, Digital Signature, Bitcoin, Transactions.
 
 #### Blockchain: 
 Immutable, decentralized, Transparent Ledger  
@@ -28,5 +28,26 @@ it enables smart contracts to execute inputs and outputs from real world
 A blockchain platform  
 
 #### Hybrid Smart Contracts: 
+on chain and off chain both , combined using oracles like chainlink  
+
+#### Metamask: 
+a browser extension that acts as a wallet  
+
+#### Faucet: 
+a platform that provides free currency to developers so they can freely experiment without paying  
+
+#### Etherscan: 
+used to see transactions and wallet info using account address  
+
+#### Gas: 
+fee required to proceed a transaction  
+
+#### Hash: 
+a string of fixed length represents a data, ethereum uses the keccak256 hashing algo  
+
+
+## Day 1 : (September 29): 
+### What i learned today: 
+Resiliens, Consensus, Chain selection, Sybil Resistance, Proof of work , Proof of Stack, Nakamato Consensus, longest Chain rule, Sybil attack, 51% attack, Validators, Scalability, Sharding, Nodes, Layer, Rollups.
 
 
