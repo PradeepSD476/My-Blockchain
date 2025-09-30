@@ -26,6 +26,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -49,20 +68,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "person",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "favoriteNumber",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -79,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BCN1/SimpleStorage.sol": "SimpleStorage3"
+			"BCN2/ExtraStorage.sol": "ExtraStorage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -93,12 +120,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"BCN1/SimpleStorage.sol": {
-			"keccak256": "0xe572a461ed7709426c1adb70cf0b648a283a92b92e6f79e74ac2d34ef83b12ab",
+		"BCN2/ExtraStorage.sol": {
+			"keccak256": "0x314ecdab79e8f62a9d714595f34f255422aebc0b9d4544b783859eccac36e5fb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d49f32541f4cd1902d012c72d3ee87436db9f94910dc273d8c8632c8f82314f",
-				"dweb:/ipfs/QmchbvqqFYziUhto1EqSsnQCkVCcy2DyEZ6r4CBxexXEhA"
+				"bzz-raw://072e6d71dd44c81d9af213e7c03cbc60cad703920ba59eeb0b42bba99be80359",
+				"dweb:/ipfs/QmewFCzgxhGAfy993tAZM71BpDquqqo2Q9jU7A9yN9y92m"
+			]
+		},
+		"BCN2/SimpleStorage.sol": {
+			"keccak256": "0x86a0f2be40a3c9837901763ed303d52d6afa57a693bdee7b0809aa82c4ba4250",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1c4d2688d421dd843bb2607c34256abb88ca6998399ae997dc1bab0b03ec2acd",
+				"dweb:/ipfs/QmXkHYimZKcF4Z3pEEFuVCeTZtMJHTUijfKSwPey8Ckfmm"
 			]
 		}
 	},
