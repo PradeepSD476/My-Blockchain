@@ -4,6 +4,8 @@ pragma solidity ^0.8.0;
 
 import './PriceConverter.sol';
 
+error NotOwner(); //custom errors
+
 //both contract and wallet can hold fund , contract is nearly same to wallet
 contract FundMe {
 
@@ -60,7 +62,20 @@ contract FundMe {
 
   //modifier
   modifier onlyOwner {
-    require(msg.sender == i_owner, "sender is not owner"); //run rqr and then move to rest.
+    if(msg.sender != i_owner){ //gas efficient
+      revert NotOwner();
+    }
+    // require(msg.sender == i_owner, "sender is not owner"); //run rqr and then move to rest.
     _; //doing the rest of the code , move ahead
+  }
+
+  //what if someone send this contract ETH without calling the fund function
+
+  receive() external payable {
+    fund();
+  }
+
+  fallback() external payable {
+    fund();
   }
 }
