@@ -6,7 +6,6 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 
 //both contract and wallet can hold fund , contract is nearly same to wallet
 contract FundMe {
-
   uint256 public minimumUsd = 50 * 1e18;
 
   address[] public funders;
@@ -19,7 +18,7 @@ contract FundMe {
     //initially we were using 1e18 instead of minimumUsd but now we are using this but we need some conversion 
     // its an external thing -> oracle problem , need solution -> decentralized oracle networks, chainlink is plug n play :)
      funders.push(msg.sender); //msg.sender -> sender of the transaction
-     addressToAmountFunded[msg.sender] = msg.value;
+     addressToAmountFunded[msg.sender] += msg.value;
   }
 
   //function to convert eth to usd
@@ -47,7 +46,5 @@ contract FundMe {
     uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1e18; // _36 / _18 == _18
     return ethAmountInUsd;
   }
-
-  
   //function withdraw() {}
 }
